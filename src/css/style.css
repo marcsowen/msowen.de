@@ -1,0 +1,53 @@
+
+.page {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    max-width: 75%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 20em;
+    border-radius: 50%;
+    max-width: 60%;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+}
+
+.title {
+    margin-bottom: 0;
+}
+
+.subtitle {
+    margin-top: 0;
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+    color: #555555;
+}
+
+.icon {
+    font-size: 2em;
+    width: 32px;
+    margin: 5px 10px 5px 0;
+}
+
+a {
+    color: #555555;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cadetblue;
+}
