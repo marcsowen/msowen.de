@@ -22,6 +22,9 @@
 
 .impressum {
     text-align: justify;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .impressum h2 {
@@ -32,11 +35,15 @@
     font-size: medium;
 }
 
+.impressum-footer {
+    margin-top: 3em;
+    text-align: center;
+}
+
 .avatar {
     width: 20em;
     border-radius: 50%;
     max-width: 60%;
-    box-sizing: border-box;
     display: block;
     margin: auto;
 }
