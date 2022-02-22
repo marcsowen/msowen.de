@@ -1,21 +1,36 @@
 
 :root {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     color-scheme: light dark;
 }
 
-.page {
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
+.card {
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    max-width: 75%;
-}
-
-.container {
     display: flex;
     align-items: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.impressum {
+    text-align: justify;
+}
+
+.impressum h2 {
+    font-size: medium;
+}
+
+.impressum h3 {
+    font-size: medium;
 }
 
 .avatar {
