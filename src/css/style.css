@@ -68,11 +68,29 @@ a {
 }
 
 a:hover {
-    color: cadetblue;
+    color: #5f9ea0;
 }
 
 @media screen and (max-width: 576px) {
  .card {
     flex-direction: column;
  }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1e1e1e;
+    }
+
+    a {
+        color: #aaaaaa;
+    }
+
+    a:hover {
+        color: #40a0a0;
+    }
+
+    .link-container {
+        color: #aaaaaa;
+    }
 }
