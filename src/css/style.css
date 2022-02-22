@@ -70,3 +70,9 @@ a {
 a:hover {
     color: cadetblue;
 }
+
+@media screen and (max-width: 576px) {
+ .card {
+    flex-direction: column;
+ }
+}
